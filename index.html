@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/output.css" />
     <link rel="stylesheet" href="style/style.css" />
+    <!-- Link Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <title>cours tailwind css</title>
   </head>
 
@@ -23,17 +29,29 @@
         </div> -->
 
         <div class="links">
-          <div class="link px-5 border-r-2 bg-gray-500 bg-opacity-25">
+          <div
+            class="link flex justify-end items-center py-5 px-5 border-r-2 bg-gray-500 bg-opacity-25"
+          >
             <div class="text font-semibold text-gray-50">Home</div>
-            <div class="icon">***</div>
+            <div class="icon m-1">
+              <i class="bx bxs-home" style="color: #NaNNaNNaN"></i>
+            </div>
           </div>
-          <div class="link px-5 py-3">
+          <div
+            class="link flex justify-end items-center py-5 px-5 border-r-2 bg-gray-500 bg-opacity-25"
+          >
             <div class="text">About</div>
-            <div class="icon">***</div>
+            <div class="icon m-1">
+              <i class="bx bxs-add-to-queue" style="color: #NaNNaNNaN"></i>
+            </div>
           </div>
-          <div class="link px-5 py-3">
+          <div
+            class="link flex justify-end items-center py-5 px-5 border-r-2 bg-gray-500 bg-opacity-25"
+          >
             <div class="text">Contact</div>
-            <div class="icon">***</div>
+            <div class="icon m-1">
+              <i class="bx bxs-contact" style="color: #NaNNaNNaN"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -48,8 +66,8 @@
               </div>
             </div>
             <div class="user my-5 flex justify-end gap-5">
-              <div class="login font-semibold text-primary">Login</div>
-              <div class="signup font-semibold text-primary">Sign Up</div>
+              <div class="btn login font-semibold text-primary">Login</div>
+              <div class="btn signup font-semibold text-primary">Sign Up</div>
             </div>
           </div>
         </header>
@@ -74,7 +92,12 @@
                 </div>
 
                 <!-- BADGE -->
-                <div class="badge">⭐ 4.5 / 5</div>
+                <div class="badge">
+                  <span class="icon">
+                    <i class="bx bxs-star" style="color: #f7ff00"></i>
+                  </span>
+                  <span class="text">4.4 / 5</span>
+                </div>
               </div>
             </div>
           </section>
@@ -98,7 +121,12 @@
                 </div>
 
                 <!-- BADGE -->
-                <div class="badge">⭐ 4.2 / 5</div>
+                <div class="badge">
+                  <span class="icon">
+                    <i class="bx bxs-star" style="color: #f7ff00"></i>
+                  </span>
+                  <span class="text">4.4 / 5</span>
+                </div>
               </div>
             </div>
           </section>
@@ -122,12 +150,17 @@
                 </div>
 
                 <!-- BADGE -->
-                <div class="badge">⭐ 4.4 / 5</div>
+                <div class="badge">
+                  <span class="icon">
+                    <i class="bx bxs-star" style="color: #f7ff00"></i>
+                  </span>
+                  <span class="text">4.4 / 5</span>
+                </div>
               </div>
             </div>
           </section>
           <div
-            class="load-more font-semibold text-xl bg-primary py-2 px-5 my-5 flex justify-center"
+            class="btn load-more font-semibold text-xl py-2 px-5 my-5 flex justify-center"
           >
             Load More
           </div>

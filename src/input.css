@@ -22,3 +22,7 @@
 .title-container {
   @apply text-center font-bold text-3xl text-yellow-600 py-5 border-b-2 border-yellow-600;
 }
+
+.btn {
+  @apply cursor-pointer px-4 py-2 border border-yellow-600 text-yellow-600 rounded-full font-semibold hover:bg-yellow-600 hover:text-white transition duration-200 ease-in-out;
+}
