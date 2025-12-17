@@ -560,6 +560,10 @@ html{
   scroll-behavior: smooth;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -571,6 +575,10 @@ html{
 
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .h-10{
@@ -595,6 +603,10 @@ html{
 
 .w-full{
   width: 100%;
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .items-center{
@@ -623,6 +635,10 @@ html{
 
 .border-b-2{
   border-bottom-width: 2px;
+}
+
+.border-r-2{
+  border-right-width: 2px;
 }
 
 .border-gray-300{
@@ -660,6 +676,15 @@ html{
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
+}
+
+.bg-opacity-25{
+  --tw-bg-opacity: 0.25;
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -688,8 +713,17 @@ html{
   padding-bottom: 1.25rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pt-5{
   padding-top: 1.25rem;
+}
+
+.text-right{
+  text-align: right;
 }
 
 .text-3xl{
@@ -763,6 +797,11 @@ html{
 .text-yellow-600{
   --tw-text-opacity: 1;
   color: rgb(202 138 4 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-50{
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity, 1));
 }
 
 .card{

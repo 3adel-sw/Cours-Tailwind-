@@ -9,8 +9,8 @@
   </head>
 
   <body class="bg-gray-900 font-bodyFontgit">
-    <div class="main-container text-white p-10">
-      <div class="navigation">
+    <div class="main-container text-white p-10 grid grid-cols-3">
+      <div class="navigation text-right">
         <div
           class="title text-4xl text-secondary-600 font-bold p-5 border-b border-gray-300"
         >
@@ -22,114 +22,117 @@
           <div class="bg-yellow-400 w-5 h-16"></div>
         </div> -->
 
-        <div class="links fort-semibold pt-5">
-          <div class="link">
-            <div class="text">Home</div>
+        <div class="links">
+          <div class="link px-5 border-r-2 bg-gray-500 bg-opacity-25">
+            <div class="text font-semibold text-gray-50">Home</div>
             <div class="icon">***</div>
           </div>
-          <div class="link">
+          <div class="link px-5 py-3">
             <div class="text">About</div>
             <div class="icon">***</div>
           </div>
-          <div class="link">
+          <div class="link px-5 py-3">
             <div class="text">Contact</div>
             <div class="icon">***</div>
           </div>
         </div>
       </div>
-      <header class="header justify-between items-center">
-        <div class="title">
-          <div class="main-title text-6xl font-bold">
-            Games
-            <div class="sub-title text-3xl font-semibold text-green-500">
-              For Gamers
+
+      <main class="col-span-2 pt-5">
+        <header class="header justify-between items-center">
+          <div class="title">
+            <div class="main-title text-6xl font-bold">
+              Games
+              <div class="sub-title text-3xl font-semibold text-green-500">
+                For Gamers
+              </div>
+            </div>
+            <div class="user my-5 flex justify-end gap-5">
+              <div class="login font-semibold text-primary">Login</div>
+              <div class="signup font-semibold text-primary">Sign Up</div>
             </div>
           </div>
-          <div class="user my-5 flex justify-end gap-5">
-            <div class="login font-semibold text-primary">Login</div>
-            <div class="signup font-semibold text-primary">Sign Up</div>
+        </header>
+        <div class="games">
+          <section class="mt-7">
+            <div class="title-container">Latest Games</div>
+            <div class="cards pt-5">
+              <div class="card">
+                <!-- IMAGE -->
+                <img
+                  src="assets/imgs/bmw-Car.jpg"
+                  alt="image"
+                  class="h-full w-full object-cover"
+                />
+
+                <!-- OVERLAY -->
+                <div class="overlay">
+                  <div class="text-white font-bold text-sm">
+                    Assassin's Creed Mirage
+                  </div>
+                  <div class="text-gray-200 text-xs">Developers Ubisoft</div>
+                </div>
+
+                <!-- BADGE -->
+                <div class="badge">⭐ 4.5 / 5</div>
+              </div>
+            </div>
+          </section>
+          <section class="mt-7">
+            <div class="title-container">Most Popular</div>
+            <div class="cards pt-5">
+              <div class="card">
+                <!-- IMAGE -->
+                <img
+                  src="assets/imgs/bmw-Car.jpg"
+                  alt="image"
+                  class="h-full w-full object-cover"
+                />
+
+                <!-- OVERLAY -->
+                <div class="overlay">
+                  <div class="text-white font-bold text-sm">
+                    Assassin's Creed Mirage
+                  </div>
+                  <div class="text-gray-200 text-xs">Developers Ubisoft</div>
+                </div>
+
+                <!-- BADGE -->
+                <div class="badge">⭐ 4.2 / 5</div>
+              </div>
+            </div>
+          </section>
+          <section class="mt-7">
+            <div class="title-container">Most Popular</div>
+            <div class="cards pt-5">
+              <div class="card">
+                <!-- IMAGE -->
+                <img
+                  src="assets/imgs/bmw-Car.jpg"
+                  alt="image"
+                  class="h-full w-full object-cover"
+                />
+
+                <!-- OVERLAY -->
+                <div class="overlay">
+                  <div class="text-white font-bold text-sm">
+                    Assassin's Creed Mirage
+                  </div>
+                  <div class="text-gray-200 text-xs">Developers Ubisoft</div>
+                </div>
+
+                <!-- BADGE -->
+                <div class="badge">⭐ 4.4 / 5</div>
+              </div>
+            </div>
+          </section>
+          <div
+            class="load-more font-semibold text-xl bg-primary py-2 px-5 my-5 flex justify-center"
+          >
+            Load More
           </div>
         </div>
-      </header>
-      <div class="games">
-        <section class="mt-7">
-          <div class="title-container">Latest Games</div>
-          <div class="cards pt-5">
-            <div class="card">
-              <!-- IMAGE -->
-              <img
-                src="assets/imgs/bmw-Car.jpg"
-                alt="image"
-                class="h-full w-full object-cover"
-              />
-
-              <!-- OVERLAY -->
-              <div class="overlay">
-                <div class="text-white font-bold text-sm">
-                  Assassin's Creed Mirage
-                </div>
-                <div class="text-gray-200 text-xs">Developers Ubisoft</div>
-              </div>
-
-              <!-- BADGE -->
-              <div class="badge">⭐ 4.5 / 5</div>
-            </div>
-          </div>
-        </section>
-        <section class="mt-7">
-          <div class="title-container">Most Popular</div>
-          <div class="cards pt-5">
-            <div class="card">
-              <!-- IMAGE -->
-              <img
-                src="assets/imgs/bmw-Car.jpg"
-                alt="image"
-                class="h-full w-full object-cover"
-              />
-
-              <!-- OVERLAY -->
-              <div class="overlay">
-                <div class="text-white font-bold text-sm">
-                  Assassin's Creed Mirage
-                </div>
-                <div class="text-gray-200 text-xs">Developers Ubisoft</div>
-              </div>
-
-              <!-- BADGE -->
-              <div class="badge">⭐ 4.2 / 5</div>
-            </div>
-          </div>
-        </section>
-        <section class="mt-7">
-          <div class="title-container">Most Popular</div>
-          <div class="cards pt-5">
-            <div class="card">
-              <!-- IMAGE -->
-              <img
-                src="assets/imgs/bmw-Car.jpg"
-                alt="image"
-                class="h-full w-full object-cover"
-              />
-
-              <!-- OVERLAY -->
-              <div class="overlay">
-                <div class="text-white font-bold text-sm">
-                  Assassin's Creed Mirage
-                </div>
-                <div class="text-gray-200 text-xs">Developers Ubisoft</div>
-              </div>
-
-              <!-- BADGE -->
-              <div class="badge">⭐ 4.4 / 5</div>
-            </div>
-          </div>
-        </section>
-        <div
-          class="load-more font-semibold text-xl bg-primary py-2 px-5 my-5 flex justify-center"
-        >
-          Load More
-        </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>
