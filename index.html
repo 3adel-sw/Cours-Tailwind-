@@ -57,24 +57,38 @@
       </div>
 
       <main class="col-span-2 pt-5">
-        <header class="header justify-between items-center">
-          <div class="title">
-            <div class="main-title text-6xl font-bold">
+        <header class="header flex justify-between items-center p-6 hidden md:block">
+          <div class="brand flex justify-center items-center  ">
+            <div class="main-title text-5xl font-bold">
               Games
-              <div class="sub-title text-3xl font-semibold text-green-500">
-                For Gamers
+              <div
+                class="sub-title text-2xl font-semibold text-green-500 flex items-center gap-2"
+              >
+                <span>For Gamers</span>
+                <span class="text-xl">🎮</span>
               </div>
             </div>
-            <div class="user my-5 flex justify-end gap-5">
-              <div class="btn login font-semibold text-primary">Login</div>
-              <div class="btn signup font-semibold text-primary">Sign Up</div>
-            </div>
+          </div>
+
+          <div class="auth-buttons flex gap-4">
+            <button
+              class="login-btn flex items-center gap-2 px-5 py-2.5 font-semibold text-primary border border-primary rounded-lg hover:bg-primary hover:text-white transition"
+            >
+              <span>👤</span>
+              <span>Login</span>
+            </button>
+            <button
+              class="signup-btn flex items-center gap-2 px-5 py-2.5 font-semibold bg-primary text-white rounded-lg hover:bg-green-600 transition"
+            >
+              <span>✍️</span>
+              <span>Sign Up</span>
+            </button>
           </div>
         </header>
         <div class="games">
           <section class="mt-7">
             <div class="title-container">Latest Games</div>
-            <div class="cards pt-5">
+            <div class="cards lg:grid-cols-3 md:grid-cols-3 lg:grid pt-5">
               <div class="card">
                 <!-- IMAGE -->
                 <img
@@ -99,12 +113,11 @@
                   <span class="text">4.4 / 5</span>
                 </div>
               </div>
-            </div>
+          
           </section>
           <section class="mt-7">
             <div class="title-container">Most Popular</div>
-            <div class="cards pt-5">
-              <div class="card">
+          <div class="card">
                 <!-- IMAGE -->
                 <img
                   src="assets/imgs/bmw-Car.jpg"
@@ -128,11 +141,11 @@
                   <span class="text">4.4 / 5</span>
                 </div>
               </div>
-            </div>
+            
+          
           </section>
           <section class="mt-7">
             <div class="title-container">Most Popular</div>
-            <div class="cards pt-5">
               <div class="card">
                 <!-- IMAGE -->
                 <img
@@ -157,15 +170,20 @@
                   <span class="text">4.4 / 5</span>
                 </div>
               </div>
-            </div>
-          </section>
-          <div
+              <div
             class="btn load-more font-semibold text-xl py-2 px-5 my-5 flex justify-center"
           >
             Load More
           </div>
+            </div>
+            </div>
+          </section>
+          
         </div>
+      
+        
       </main>
-    </div>
+  
+
   </body>
 </html>
