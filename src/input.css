@@ -9,3 +9,16 @@
     @apply scroll-smooth;
   }
 }
+
+.card {
+  @apply h-72 w-full relative overflow-hidden shadow-sm rounded-lg cursor-pointer hover:scale-105 transform transition duration-200 ease-out;
+}
+.badge {
+  @apply absolute top-2 left-2 text-sm bg-black font-bold text-yellow-500 px-3 py-1 rounded-full;
+}
+.overlay {
+  @apply absolute bottom-0 left-0 w-full bg-slate-500 bg-opacity-50 p-2;
+}
+.title-container {
+  @apply text-center font-bold text-3xl text-yellow-600 py-5 border-b-2 border-yellow-600;
+}
